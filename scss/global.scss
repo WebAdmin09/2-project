@@ -1,0 +1,15 @@
+@use "./fonts/fonts";
+@use "./layout/container";
+@use "./layout/navbar";
+@use "./layout/footer";
+@use "./amenities/mixin";
+@use "./amenities/variables";
+@use "./themes/dark-light.scss";
+@use "./components/button";
+
+* {
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
