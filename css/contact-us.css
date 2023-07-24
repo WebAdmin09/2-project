@@ -23,17 +23,14 @@ body {
 }
 
 * {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   text-decoration: none;
   list-style: none;
 }
 
 #header {
   padding-bottom: 108px;
-}
-
-nav {
-  background-color: rgba(245, 114, 7, 0.658);
 }
 
 .nav-link {
@@ -47,13 +44,16 @@ nav {
 
 .nav-link:hover {
   margin-bottom: 10px;
-  transform: scale(1);
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  -webkit-transition: 0.8s;
   transition: 0.8s;
   color: #f58a07;
 }
 
 .nav-link:hover::before {
-  transform: scaleX(1);
+  -webkit-transform: scaleX(1);
+          transform: scaleX(1);
 }
 
 .nav-link::before {
@@ -64,8 +64,12 @@ nav {
   width: 100px;
   background-color: #f58a07;
   border-radius: 50px;
-  transform: scale(0);
+  -webkit-transform: scale(0);
+          transform: scale(0);
+  -webkit-transition: -webkit-transform 0.2s linear;
+  transition: -webkit-transform 0.2s linear;
   transition: transform 0.2s linear;
+  transition: transform 0.2s linear, -webkit-transform 0.2s linear;
 }
 
 .offcanvas-body {
@@ -89,12 +93,17 @@ nav {
   width: 75px;
   background-color: #f58a07;
   border-radius: 50px;
-  transform: scale(0);
+  -webkit-transform: scale(0);
+          transform: scale(0);
+  -webkit-transition: -webkit-transform 0.2s linear;
+  transition: -webkit-transform 0.2s linear;
   transition: transform 0.2s linear;
+  transition: transform 0.2s linear, -webkit-transform 0.2s linear;
 }
 
 .item1:hover::before {
-  transform: scaleX(1);
+  -webkit-transform: scaleX(1);
+          transform: scaleX(1);
 }
 
 .nav-link2::before {
@@ -105,12 +114,17 @@ nav {
   width: 70px;
   background-color: #f58a07;
   border-radius: 50px;
-  transform: scale(0);
+  -webkit-transform: scale(0);
+          transform: scale(0);
+  -webkit-transition: -webkit-transform 0.2s linear;
+  transition: -webkit-transform 0.2s linear;
   transition: transform 0.2s linear;
+  transition: transform 0.2s linear, -webkit-transform 0.2s linear;
 }
 
 .nav-link2:hover::before {
-  transform: scaleX(1);
+  -webkit-transform: scaleX(1);
+          transform: scaleX(1);
 }
 
 .nav-link3::before {
@@ -121,12 +135,17 @@ nav {
   width: 70px;
   background-color: #f58a07;
   border-radius: 50px;
-  transform: scale(0);
+  -webkit-transform: scale(0);
+          transform: scale(0);
+  -webkit-transition: -webkit-transform 0.2s linear;
+  transition: -webkit-transform 0.2s linear;
   transition: transform 0.2s linear;
+  transition: transform 0.2s linear, -webkit-transform 0.2s linear;
 }
 
 .nav-link3:hover::before {
-  transform: scaleX(1);
+  -webkit-transform: scaleX(1);
+          transform: scaleX(1);
 }
 
 .nav-link4::before {
@@ -137,12 +156,17 @@ nav {
   width: 40px;
   background-color: #f58a07;
   border-radius: 50px;
-  transform: scale(0);
+  -webkit-transform: scale(0);
+          transform: scale(0);
+  -webkit-transition: -webkit-transform 0.2s linear;
+  transition: -webkit-transform 0.2s linear;
   transition: transform 0.2s linear;
+  transition: transform 0.2s linear, -webkit-transform 0.2s linear;
 }
 
 .nav-link4:hover::before {
-  transform: scaleX(1);
+  -webkit-transform: scaleX(1);
+          transform: scaleX(1);
 }
 
 .navbar-toggler {
@@ -150,8 +174,12 @@ nav {
 }
 
 .navbar-nav2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .nav-item {
@@ -159,8 +187,12 @@ nav {
 }
 
 .main_header__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   padding-top: 30px;
 }
 
@@ -273,8 +305,12 @@ nav {
 }
 
 .hero__Wrapper2-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   gap: 76px;
 }
 
@@ -284,14 +320,21 @@ nav {
 }
 
 .hero__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   gap: 50px;
 }
 
 @media screen and (max-width: 1000px) {
   .hero__container {
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
   .input {
     padding-right: 400px;
@@ -302,7 +345,10 @@ nav {
 }
 @media screen and (max-width: 710px) {
   .hero__container {
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
   .input {
     padding-right: 350px;
@@ -318,7 +364,10 @@ nav {
 }
 @media screen and (max-width: 600px) {
   .hero__container {
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
   .input {
     padding-right: 250px;
@@ -347,8 +396,12 @@ nav {
 }
 
 .footer__img {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   gap: 16px;
 }
 
@@ -409,8 +462,12 @@ nav {
 }
 
 .wrapper2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   gap: 106px;
 }
 
@@ -447,8 +504,12 @@ nav {
 }
 
 .footer__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   gap: 143px;
 }
 
@@ -467,8 +528,12 @@ nav {
 .sentences {
   gap: 32px;
   margin-top: 120px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .footer__container {
@@ -485,6 +550,9 @@ nav {
 
 @media screen and (max-width: 1000px) {
   .footer__container {
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
-}
+}/*# sourceMappingURL=contact-us.css.map */

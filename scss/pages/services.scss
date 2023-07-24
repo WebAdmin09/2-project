@@ -4,8 +4,6 @@
   padding-bottom: 108px;
 }
 
-
-
 .nav-link {
   font-size: 16px;
   font-weight: 600;
@@ -648,9 +646,8 @@
   background-position: right top;
 }
 
-
-@media screen and (max-width:1000px) {
-  .footer__container{
+@media screen and (max-width: 1000px) {
+  .footer__container {
     flex-direction: column;
   }
 }
