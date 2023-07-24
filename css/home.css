@@ -23,8 +23,7 @@ body {
 }
 
 * {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   text-decoration: none;
   list-style: none;
 }
@@ -32,4 +31,4 @@ body {
 .home-page-heading {
   color: red;
   font-size: 56px;
-}/*# sourceMappingURL=home.css.map */
+}

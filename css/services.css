@@ -23,8 +23,7 @@ body {
 }
 
 * {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   text-decoration: none;
   list-style: none;
 }
@@ -48,16 +47,13 @@ nav {
 
 .nav-link:hover {
   margin-bottom: 10px;
-  -webkit-transform: scale(1);
-          transform: scale(1);
-  -webkit-transition: 0.8s;
+  transform: scale(1);
   transition: 0.8s;
   color: #f58a07;
 }
 
 .nav-link:hover::before {
-  -webkit-transform: scaleX(1);
-          transform: scaleX(1);
+  transform: scaleX(1);
 }
 
 .nav-link::before {
@@ -68,12 +64,8 @@ nav {
   width: 100px;
   background-color: #f58a07;
   border-radius: 50px;
-  -webkit-transform: scale(0);
-          transform: scale(0);
-  -webkit-transition: -webkit-transform 0.2s linear;
-  transition: -webkit-transform 0.2s linear;
+  transform: scale(0);
   transition: transform 0.2s linear;
-  transition: transform 0.2s linear, -webkit-transform 0.2s linear;
 }
 
 .offcanvas-body {
@@ -97,17 +89,12 @@ nav {
   width: 75px;
   background-color: #f58a07;
   border-radius: 50px;
-  -webkit-transform: scale(0);
-          transform: scale(0);
-  -webkit-transition: -webkit-transform 0.2s linear;
-  transition: -webkit-transform 0.2s linear;
+  transform: scale(0);
   transition: transform 0.2s linear;
-  transition: transform 0.2s linear, -webkit-transform 0.2s linear;
 }
 
 .item1:hover::before {
-  -webkit-transform: scaleX(1);
-          transform: scaleX(1);
+  transform: scaleX(1);
 }
 
 .nav-link2::before {
@@ -118,17 +105,12 @@ nav {
   width: 70px;
   background-color: #f58a07;
   border-radius: 50px;
-  -webkit-transform: scale(0);
-          transform: scale(0);
-  -webkit-transition: -webkit-transform 0.2s linear;
-  transition: -webkit-transform 0.2s linear;
+  transform: scale(0);
   transition: transform 0.2s linear;
-  transition: transform 0.2s linear, -webkit-transform 0.2s linear;
 }
 
 .nav-link2:hover::before {
-  -webkit-transform: scaleX(1);
-          transform: scaleX(1);
+  transform: scaleX(1);
 }
 
 .nav-link3::before {
@@ -139,17 +121,12 @@ nav {
   width: 70px;
   background-color: #f58a07;
   border-radius: 50px;
-  -webkit-transform: scale(0);
-          transform: scale(0);
-  -webkit-transition: -webkit-transform 0.2s linear;
-  transition: -webkit-transform 0.2s linear;
+  transform: scale(0);
   transition: transform 0.2s linear;
-  transition: transform 0.2s linear, -webkit-transform 0.2s linear;
 }
 
 .nav-link3:hover::before {
-  -webkit-transform: scaleX(1);
-          transform: scaleX(1);
+  transform: scaleX(1);
 }
 
 .nav-link4::before {
@@ -160,17 +137,12 @@ nav {
   width: 40px;
   background-color: #f58a07;
   border-radius: 50px;
-  -webkit-transform: scale(0);
-          transform: scale(0);
-  -webkit-transition: -webkit-transform 0.2s linear;
-  transition: -webkit-transform 0.2s linear;
+  transform: scale(0);
   transition: transform 0.2s linear;
-  transition: transform 0.2s linear, -webkit-transform 0.2s linear;
 }
 
 .nav-link4:hover::before {
-  -webkit-transform: scaleX(1);
-          transform: scaleX(1);
+  transform: scaleX(1);
 }
 
 .navbar-toggler {
@@ -178,12 +150,8 @@ nav {
 }
 
 .navbar-nav2 {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
 }
 
 .nav-item {
@@ -191,12 +159,8 @@ nav {
 }
 
 .main_header__list {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
   padding-top: 30px;
 }
 
@@ -269,7 +233,6 @@ nav {
 .hero__btn:hover {
   color: #f58a07;
   background: rgba(245, 140, 7, 0.1);
-  -webkit-transition: 0.8s;
   transition: 0.8s;
 }
 
@@ -279,20 +242,13 @@ nav {
 }
 
 .hero__container {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
 }
 
 @media screen and (max-width: 1000px) {
   .hero__container {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: reverse;
-        -ms-flex-direction: column-reverse;
-            flex-direction: column-reverse;
+    flex-direction: column-reverse;
   }
   .hero__img {
     max-width: 550px;
@@ -341,21 +297,14 @@ nav {
 }
 
 .bussines__container {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
   gap: 77px;
 }
 
 @media screen and (max-width: 1000px) {
   .bussines__container {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
   }
 }
 @media screen and (max-width: 600px) {
@@ -390,21 +339,14 @@ nav {
 }
 
 .digital__container {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
   gap: 80px;
 }
 
 @media screen and (max-width: 1000px) {
   .digital__container {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: reverse;
-        -ms-flex-direction: column-reverse;
-            flex-direction: column-reverse;
+    flex-direction: column-reverse;
   }
   .digital___img {
     max-width: 550px;
@@ -441,12 +383,8 @@ nav {
 
 .wrapper {
   margin-bottom: 46px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
   gap: 24px;
 }
 
@@ -455,12 +393,8 @@ nav {
 }
 
 .artificial__container {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
   gap: 110px;
 }
 
@@ -483,10 +417,7 @@ nav {
 
 @media screen and (max-width: 1000px) {
   .artificial__container {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: reverse;
-        -ms-flex-direction: column-reverse;
-            flex-direction: column-reverse;
+    flex-direction: column-reverse;
   }
 }
 #news {
@@ -528,12 +459,8 @@ nav {
 }
 
 .news__btn {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
   gap: 8px;
 }
 
@@ -554,12 +481,8 @@ nav {
 }
 
 .news__list {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
   gap: 40px;
   padding-bottom: 96px;
 }
@@ -598,12 +521,8 @@ nav {
 }
 
 .footer__img {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
   gap: 16px;
 }
 
@@ -664,12 +583,8 @@ nav {
 }
 
 .wrapper2 {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
   gap: 106px;
 }
 
@@ -706,12 +621,8 @@ nav {
 }
 
 .footer__container {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
   gap: 143px;
 }
 
@@ -730,12 +641,8 @@ nav {
 .sentences {
   gap: 32px;
   margin-top: 120px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
 }
 
 .footer__container {
@@ -752,9 +659,6 @@ nav {
 
 @media screen and (max-width: 1000px) {
   .footer__container {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
   }
-}/*# sourceMappingURL=services.css.map */
+}
