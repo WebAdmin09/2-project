@@ -27,6 +27,8 @@ body {
           box-sizing: border-box;
   text-decoration: none;
   list-style: none;
+<<<<<<< HEAD
+=======
 }
 
 body header {
@@ -949,4 +951,5 @@ body main .latest .latest__container .latest__box .latest__box--card .latest__ca
 .footer .footer__container .footer__bottom a {
   text-decoration: none;
   color: #fff;
+>>>>>>> f133142a36d51c635a57c77d944f9ba65428f38f
 }/*# sourceMappingURL=about-us.css.map */

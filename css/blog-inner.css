@@ -27,6 +27,8 @@ body {
           box-sizing: border-box;
   text-decoration: none;
   list-style: none;
+<<<<<<< HEAD
+=======
 }
 
 #header {
@@ -502,4 +504,5 @@ nav {
         -ms-flex-direction: column;
             flex-direction: column;
   }
+>>>>>>> f133142a36d51c635a57c77d944f9ba65428f38f
 }/*# sourceMappingURL=blog-inner.css.map */
