@@ -397,4 +397,182 @@
     }
 }
 
+.work__with {
+    width: 100%;
+    @media (max-width: 769px) {
+      .work__with--container {
+        flex-direction: column;
+        margin: 0 auto;
+      }
+    }
+    .work__with--container {
+      max-width: 1280px;
+      margin: 0 auto;
+      margin-top: 100px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      .work__with--text {
+        max-width: 550px;
+        padding: 20px;
+        h3 {
+          max-width: 550px;
+          font-family: Poppins;
+          font-size: 48px;
+          font-weight: 600;
+          line-height: 56px;
+          letter-spacing: -0.03em;
+          text-align: left;
+        }
+        p {
+          max-width: 550px;
+          margin-top: 24px;
+          margin-bottom: 40px;
+          font-family: Poppins;
+          font-size: 18px;
+          font-weight: 500;
+          line-height: 30px;
+          letter-spacing: 0em;
+          text-align: left;
+        }
+        .text__box {
+          max-width: 249px;
+          height: 80px;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          .text__box--right {
+            height: 60px;
+            h6 {
+              font-family: Poppins;
+              font-size: 24px;
+              font-weight: 500;
+              line-height: 41px;
+              letter-spacing: 0em;
+              text-align: left;
+              margin-bottom: -30px;
+            }
+            p {
+              font-family: Poppins;
+              font-size: 18px;
+              font-weight: 500;
+              line-height: 31px;
+              letter-spacing: 0em;
+              text-align: left;
+              color: #f58a07;
+            }
+          }
+        }
+      }
+      .work__with--img {
+        width: 620px;
+        height: 501px;
+        background-image: url(../../images/about/Image\ modal.png);
+        background-repeat: no-repeat;
+        display: flex;
+        align-items: end;
+        justify-content: start;
+        padding: 60px 45px;
+        .modal__ahref {
+          button {
+            background-color: transparent;
+            color: white;
+            font-family: Inter;
+            font-size: 25px;
+            font-weight: 600;
+            line-height: 18px;
+            letter-spacing: 0px;
+            text-align: left;
+            text-decoration: none;
+          }
+        }
+      }
+    }
+  }
+  .latest {
+    width: 100%;
+    background-color: #dceaf5;
+    padding: 96px 0;
+    @media (max-width: 969px) {
+      .latest__container {
+        display: flex;
+        align-items: center;
+        .latest__title {
+          text-align: center;
+          margin: 0 auto;
+        }
+        .latest__box {
+          flex-direction: column;
+          align-items: center;
+          .latest__box--card {
+            margin: 20px 0;
+          }
+        }
+      }
+    }
+    .latest__container {
+      max-width: 1280px;
+      margin: 0 auto;
+      display: flex;
+      align-items: flex-start;
+      flex-direction: column;
+      .latest__title {
+        margin-bottom: 64px;
+        h3 {
+          font-family: Poppins;
+          font-size: 48px;
+          font-weight: 600;
+          line-height: 56px;
+          letter-spacing: -0.03em;
+          text-align: left;
+        }
+      }
+      .latest__box {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 0 auto;
+        .latest__box--card {
+          width: 400px;
+          height: 507px;
+          background-color: #fff;
+          border-radius: 20px;
+          .latest__card--container {
+            width: 336px;
+            margin: 32px;
+            h3 {
+              max-width: 336px;
+              font-family: Poppins;
+              font-size: 24px;
+              font-weight: 500;
+              line-height: 36px;
+              letter-spacing: -0.03em;
+              text-align: left;
+            }
+            p {
+              max-width: 336px;
+              font-family: Poppins;
+              font-size: 16px;
+              font-weight: 500;
+              line-height: 28px;
+              letter-spacing: 0em;
+              text-align: left;
+            }
+            .card__link {
+              a {
+                text-decoration: none;
+                color: #f58a07b6;
+                margin-right: 10px;
+                transition: 0.2s;
+                &:hover {
+                  color: #f58a07;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
 // <!-- MARKETING FINISH -->
