@@ -15,6 +15,10 @@ body {
   padding: 0 20px;
 }
 
+body {
+  margin: 0px;
+}
+
 .btn {
   max-width: 199px;
   max-height: 54px;
@@ -23,8 +27,7 @@ body {
 }
 
 * {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   text-decoration: none;
   list-style: none;
 }/*# sourceMappingURL=blog.css.map */
